@@ -7,17 +7,13 @@ body {
     align-items: center;
 }
 
-.container {
+.container, .chart {
     position: absolute;
     margin-left: 50%;
-    margin-top: 15%;
+    margin-top: 1rem;
     transform: translateX(-50%);
     display: grid;
     grid-template-columns: 25% 75%;
-    width: 65%;
-}
-
-.chart {
     width: 65%;
 }
 
@@ -77,4 +73,9 @@ h4 {
 .death h4 {
     background: gray;
     color: white;
+}
+
+.chart {
+    width: 50%;
+    margin-top: 20rem;
 }
