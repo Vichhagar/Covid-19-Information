@@ -3,7 +3,7 @@ const {labels, datas} = [];
 const data = {
     labels: labels,
     datasets: [{
-    label: 'My First dataset',
+    label: 'Cases from last 30 days',
     backgroundColor: 'rgb(255, 99, 132)',
     borderColor: 'rgb(255, 99, 132)',
     data: datas,
