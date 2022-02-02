@@ -10,7 +10,7 @@ body {
 .container, .chart {
     position: absolute;
     margin-left: 50%;
-    margin-top: 1rem;
+    margin-top: 3rem;
     transform: translateX(-50%);
     display: grid;
     grid-template-columns: 25% 75%;
@@ -76,6 +76,18 @@ h4 {
 }
 
 .chart {
+    position: absolute;
+    left: -25%;
     width: 50%;
-    margin-top: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25rem;
+    padding-bottom: 7rem;
+    transform: rotate(180deg);
+}
+
+.chart > div {
+    width: 35px;
+    /* height: 5rem; */
+    background-color: brown;
 }
